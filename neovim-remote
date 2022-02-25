@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+export NVIM_LISTEN_ADDRESS=/tmp/nvimsocket
+nvr --remote "$@"
